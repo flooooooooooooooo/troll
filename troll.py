@@ -1,7 +1,7 @@
 import ctypes
 from ctypes import wintypes
-a = True
-while a :
+
+while True :
     # Définir les constantes pour le style de la boîte de message
     MB_OK = 0x00000000
     MB_ICONWARNING = 0x00000030
@@ -18,4 +18,3 @@ while a :
 
     # Appeler la fonction pour afficher la fenêtre
     show_warning_box()
-    a=False
